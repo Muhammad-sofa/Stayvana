@@ -16,7 +16,7 @@ return new class extends Migration
             $table->foreignId('boarding_house_id')->constrained()->cascadeOnDelete();
             $table->string('name');
             $table->string('room_type');
-            $table->string('sequare_feet');
+            $table->string('square_feet');
             $table->string('capacity');
             $table->integer('price_per_month');
             $table->boolean('is_available');

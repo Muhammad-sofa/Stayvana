@@ -10,7 +10,7 @@ class Room extends Model
         'boarding_house_id',
         'name',
         'room_type',
-        'sequare_feet',
+        'square_feet',
         'capacity',
         'price_per_month',
         'is_available',
