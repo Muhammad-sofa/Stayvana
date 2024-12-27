@@ -3,10 +3,12 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 use PHPUnit\Event\Code\Test;
 
 class BoardingHouse extends Model
 {
+    use SoftDeletes;
     protected $fillable = [
         'name',
         'slug',
